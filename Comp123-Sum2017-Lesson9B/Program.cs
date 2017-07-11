@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 /*
  * Name:Gursharan Singh
  * Date:July11,2017
- * Version:0.2 Added object of typer superhuman
- */
+ * Version:0.3 Added a power to super human class */
 namespace Comp123_Sum2017_Lesson9B
 {
     class Program
@@ -16,7 +15,7 @@ namespace Comp123_Sum2017_Lesson9B
         static void Main(string[] args)
         {
             SuperHuman superhuman = new SuperHuman("superdude");
-            superhuman.Powers.Add(new Power("Spider climbing",50));
+            superhuman.AddedPower("SpiderClimbing", 50);
         }
     }
 }
