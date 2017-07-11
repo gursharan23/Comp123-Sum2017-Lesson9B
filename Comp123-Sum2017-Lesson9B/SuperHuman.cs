@@ -24,6 +24,10 @@ namespace Comp123_Sum2017_Lesson9B
       /// </summary>
         private List<Power> _powers;
         //Public properties
+        public List<Power> Powers{
+            get
+            { return this._powers; }
+    }
         //Constructors
         public SuperHuman(string name):base(name)
         {
