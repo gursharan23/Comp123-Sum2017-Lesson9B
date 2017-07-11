@@ -17,6 +17,7 @@ namespace Comp123_Sum2017_Lesson9B
     /// </summary>
     public class Power
     {
+        
         //Public properties
         public string Name { get; set; }
         public int Rank { get; set; }
