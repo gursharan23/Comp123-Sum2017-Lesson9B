@@ -9,7 +9,7 @@ using System.Text;
  * Date:July11,2017
  * Description: This is the super human class extends the human abstract class
  * Version:0.1 Created the super human class
- * Version:0.3 Added power method
+ * Version:0.4 Added DisplayPowes method
  */
 namespace Comp123_Sum2017_Lesson9B
 {
@@ -42,6 +42,16 @@ namespace Comp123_Sum2017_Lesson9B
         public void AddedPower(string name, int rank)
         {
             this.Powers.Add(new Power(name,rank));
+        }
+        /// <summary>
+        /// This method displays each of the powers stored in the powers list
+        /// </summary>
+        public void DiplayPower()
+        {
+            foreach (Power power in this.Powers)
+            {
+                Console.WriteLine("Power" + power.Name + "Rank:" + power.Rank);
+            }
         }
     }
 }
