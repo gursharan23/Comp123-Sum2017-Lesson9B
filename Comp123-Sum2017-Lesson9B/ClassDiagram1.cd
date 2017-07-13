@@ -3,14 +3,14 @@
   <Class Name="Comp123_Sum2017_Lesson9B.Human">
     <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAIAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAIAAAAAAA=</HashCode>
       <FileName>Human.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Comp123_Sum2017_Lesson9B.SuperHuman">
     <Position X="3.25" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAEACAAAAAAAAAAAAAAAAEAAAABAAAAAABAAAA=</HashCode>
+      <HashCode>AAAAAAAEACAAAAAEAAAAAAAAAAEAAAABAAAIAABAAAA=</HashCode>
       <FileName>SuperHuman.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -21,5 +21,12 @@
       <FileName>Power.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Interface Name="Comp123_Sum2017_Lesson9B.IHasKarma">
+    <Position X="6" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IHasKarma.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
