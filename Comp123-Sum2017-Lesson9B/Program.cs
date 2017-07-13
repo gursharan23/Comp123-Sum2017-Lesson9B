@@ -21,6 +21,7 @@ namespace Comp123_Sum2017_Lesson9B
             superHero.AddedPower("Webcasting", 40);
             superHero.AddedPower("Phasing", 30);
             Console.WriteLine(superHero.ToString());
+            Console.WriteLine("Karma: " +superHero.Karma);
             
         }
     }
