@@ -9,7 +9,7 @@ using System.Text;
  * Date:July11,2017
  * Description: This is the super human class extends the human abstract class
  * Version:0.1 Created the super human class
- * Version:0.5 Added Overriden method
+ * Version:0.6 Added Stub  method DisplaySkills to confirm to Human Abstract Superclass
  */
 namespace Comp123_Sum2017_Lesson9B
 {
@@ -53,7 +53,7 @@ namespace Comp123_Sum2017_Lesson9B
                 Console.WriteLine("Power" + power.Name + "Rank:" + power.Rank);
             }
         }
-
+        //Public ovverridden ToString method
         public override string ToString()
         {
             string Outputstring = "";
@@ -67,6 +67,14 @@ namespace Comp123_Sum2017_Lesson9B
             Outputstring += "=======================================\n";
             return Outputstring;
 
+        }
+        /// <summary>
+        /// This is the DisplaySkills Method.
+        /// Need to be Implemented.
+        /// </summary>
+        public override void DisplaySkills()
+        {
+            Console.WriteLine("Not Implemented");
         }
     }
 }
