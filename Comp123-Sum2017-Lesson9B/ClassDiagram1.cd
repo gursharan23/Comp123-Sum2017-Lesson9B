@@ -22,7 +22,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Comp123_Sum2017_Lesson9B.SuperHero">
-    <Position X="5.5" Y="5" Width="1.5" />
+    <Position X="6" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAgAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>SuperHero.cs</FileName>
@@ -30,7 +30,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Interface Name="Comp123_Sum2017_Lesson9B.IHasKarma">
-    <Position X="6" Y="3.25" Width="1.5" />
+    <Position X="7.75" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IHasKarma.cs</FileName>
