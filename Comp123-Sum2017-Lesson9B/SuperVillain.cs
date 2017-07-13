@@ -10,7 +10,7 @@ using System.Text;
  * Date:July13,2017
  * Description: This is the SuperVillain class that inherits from SuperHuman Class
  * and implements the IHasMallice Interface.
- * Version:0.1
+ * Version:0.1 Created Supervillain class
  */
 namespace Comp123_Sum2017_Lesson9B
 {
