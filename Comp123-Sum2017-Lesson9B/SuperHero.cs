@@ -8,7 +8,7 @@ using System.Text;
  * Date:July11,2017
  * Description: This is the SuperHero class that inherits from SuperHuman Class
  * and implements the IHasKarma Interface.
- * Version:0.2 Modify Constructor
+ * Version:0.3 Fixed Constructor Error
  */
 namespace Comp123_Sum2017_Lesson9B
 {
@@ -40,7 +40,7 @@ namespace Comp123_Sum2017_Lesson9B
         public SuperHero(string name, int Karma)
             : base(name)
         {
-            this.Karma = karma;
+            this.Karma = Karma;
         }
 
         //Private Methods
