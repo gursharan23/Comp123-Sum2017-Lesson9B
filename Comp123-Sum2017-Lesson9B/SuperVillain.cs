@@ -17,7 +17,7 @@ namespace Comp123_Sum2017_Lesson9B
     /// <summary>
     /// This is the supervillain class
     /// </summary>
-    public class SuperVillain:SuperHuman,IHasMalice
+    public class SuperVillain: SuperHuman,IHasMalice
     {
 
         //Private Instance Variables
@@ -31,9 +31,9 @@ namespace Comp123_Sum2017_Lesson9B
         /// </summary>
         /// <param name="name"></param>
         /// <param name="Malice"></param>
-        public SuperVillain(string name, int Malice) : base(name)
+        public SuperVillain(string name,int malice) : base(name)
         {
-            this.Malice = Malice;
+            this.Malice = malice;
         }
         //Public Methods 
         //Private Methods

@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 /*
  * Name:Gursharan Singh
  * Date:July11,2017
- * Version:0.6 Implemented SuperVillain Class
- */
+ * Version:0.1 Implemented SuperVillain Class
+ -*/
  
 namespace Comp123_Sum2017_Lesson9B
 {
@@ -16,13 +16,19 @@ namespace Comp123_Sum2017_Lesson9B
     {
         static void Main(string[] args)
         {
-            SuperHero supervillain = new SuperHero("SuperHero dude",20);
+            SuperHero superHero = new SuperHero("SuperHero dude",20);
+            superHero.AddedPower("SpiderClimbing", 50);
+            superHero.AddedPower("Webcasting", 40);
+            superHero.AddedPower("Phasing", 30);
+            Console.WriteLine(superHero.ToString());
+            Console.WriteLine("Karma: " +superHero.Karma);
+            Console.WriteLine("\nSuperVillain\n");
+            SuperVillain supervillain = new SuperVillain("SuperVillain dude", 20);
             supervillain.AddedPower("SpiderClimbing", 50);
-            supervillain.AddedPower("Webcasting", 40);
-            supervillain.AddedPower("Phasing", 30);
-            Console.WriteLine(supervillain.ToString());
-            Console.WriteLine("Karma: " +supervillain.Malice);
             
+            Console.WriteLine(supervillain.ToString());
+            Console.WriteLine("Malice: "+supervillain.Malice);
+
         }
     }
 }
