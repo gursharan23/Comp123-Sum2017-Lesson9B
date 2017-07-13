@@ -23,9 +23,9 @@ namespace Comp123_Sum2017_Lesson9B
             Console.WriteLine(superHero.ToString());
             Console.WriteLine("Karma: " +superHero.Karma);
             Console.WriteLine("\nSuperVillain\n");
-            SuperVillain supervillain = new SuperVillain("SuperVillain dude", 20);
-            supervillain.AddedPower("SpiderClimbing", 50);
-            
+            SuperVillain supervillain = new SuperVillain("Joker", 1);
+            supervillain.AddedPower("Doomsday", 10);
+            supervillain.AddedPower("Unpredictable",15);
             Console.WriteLine(supervillain.ToString());
             Console.WriteLine("Malice: "+supervillain.Malice);
 
