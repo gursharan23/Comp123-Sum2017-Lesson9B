@@ -8,7 +8,7 @@ using System.Text;
 * Name:Gursharan Singh
 * Date:July11,2017
 * Description: Human Abstract CLass
-* Version:0.1 Created the Abstract Human class
+* Version:0.2 Added public abstract method display skill
 */
 
 namespace Comp123_Sum2017_Lesson9B
@@ -43,6 +43,7 @@ namespace Comp123_Sum2017_Lesson9B
             this.Name = name;
         }
         //PRIVATE METHODS
-        //PUBLIC METHODS
+        //PUBLIC ABSTRACT METHODS
+        public abstract void DisplaySkills();
     }
 }

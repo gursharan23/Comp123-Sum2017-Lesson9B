@@ -32,6 +32,7 @@ namespace Comp123_Sum2017_Lesson9B
             this.Name = name;
             this.Rank = rank;
         }
-       
+       // Methods
+   
     }
 }
