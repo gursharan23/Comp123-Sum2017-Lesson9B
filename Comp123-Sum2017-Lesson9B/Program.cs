@@ -19,7 +19,8 @@ namespace Comp123_Sum2017_Lesson9B
             SuperHuman superhuman = new SuperHuman("superdude");
             superhuman.AddedPower("SpiderClimbing", 50);
             superhuman.AddedPower("Webcasting", 40);
-            superhuman.DiplayPower();
+            superhuman.AddedPower("Phasing", 30);
+            Console.WriteLine(superhuman.ToString());
             
         }
     }
